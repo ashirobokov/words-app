@@ -43,7 +43,8 @@ class WordListFragment : Fragment() {
             DividerItemDecoration(this.requireContext(), DividerItemDecoration.VERTICAL)
         )
 
-//         title = getString(R.string.detail_prefix) + " " + letterId
+// Need to check how it will work
+         activity?.title = getString(R.string.detail_prefix) + " " + letterId
 
     }
 
