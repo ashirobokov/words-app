@@ -86,7 +86,7 @@ class WordAdapter(private val letterId: String, context: Context) :
         holder.button.setOnClickListener {
 //            that's just search, refactored to translate
 //            val queryUrl: Uri = Uri.parse("${DetailActivity.SEARCH_PREFIX}${item}")
-            val queryUrl: Uri = Uri.parse("${DetailActivity.TRANSLATE_PREFIX}${item}${DetailActivity.OP_TRANSLATE}")
+            val queryUrl: Uri = Uri.parse("${WordListFragment.TRANSLATE_PREFIX}${item}${WordListFragment.OP_TRANSLATE}")
             val intent = Intent(Intent.ACTION_VIEW, queryUrl)
             context.startActivity(intent)
         }
