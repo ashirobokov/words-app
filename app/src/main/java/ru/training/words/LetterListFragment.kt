@@ -19,7 +19,7 @@ class LetterListFragment : Fragment() {
     private var _binding: FragmentLetterListBinding? = null
     private val binding get() = _binding!!
     private lateinit var recyclerView: RecyclerView
-    private var isLinearLayoutManager = true
+    private var isLinearLayoutManager = false
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

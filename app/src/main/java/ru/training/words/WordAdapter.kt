@@ -45,9 +45,9 @@ class WordAdapter(private val letterId: String, context: Context) :
             // ignoring UPPERCASE or lowercase.
             .filter { it.startsWith(letterId, ignoreCase = true) }
             // Returns a collection that it has shuffled in place
-            //.shuffled()
+                //.shuffled()
             // Returns the first n items as a [List]
-            //.take(5)
+                //.take(5)
             // Returns a sorted version of that [List]
             .sorted()
     }
